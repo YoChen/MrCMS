@@ -21,7 +21,7 @@
         @Html.ValidationMessageFor(model => model.Email)
     </div>
     
-    <input type="submit" value="Save Changes" class="btn btn-primary" />
+   <button type="submit" class="btn btn-primary">@Resource("Save Changes")</button>
     
     if (!String.IsNullOrEmpty(ViewBag.Message))
     {
